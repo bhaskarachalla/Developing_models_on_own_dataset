@@ -14,10 +14,10 @@ import pickle
 import numpy as np
 
 # Load model and scaler
-with open('RandomForestClassifier.pkl', 'rb') as f:
+with open(r'RandomForestClassifier.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('scaling_classify.pkl', 'rb') as file:
+with open(r'scaling_classify.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 # Input fields
